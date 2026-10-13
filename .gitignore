@@ -1,6 +1,10 @@
 # Data
 /data/
 
+# MLflow
+mlruns/
+mlartifacts/
+
 # Mac OS-specific storage files
 .DS_Store
 
@@ -152,6 +156,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+
+# Modelos serializados
+models/*
+!models/.gitkeep
 
 # Spyder project settings
 .spyderproject
