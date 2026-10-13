@@ -1,9 +1,13 @@
 # Data
 /data/
+data/raw/
+data/interim/
+data/processed/
 
 # MLflow
 mlruns/
 mlartifacts/
+mlflow.db
 
 # Mac OS-specific storage files
 .DS_Store

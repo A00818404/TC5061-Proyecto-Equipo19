@@ -6,3 +6,5 @@ ruff
 tqdm
 typer
 -e .
+pandas>=2.0
+pyarrow>=12.0
